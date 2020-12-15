@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Run Docsify
         uses: quintoandar/docsify
-        run: docsify init ./docs
+        # run: docsify init ./docs
       - uses: actions/checkout@v2
         with:
           submodules: true
