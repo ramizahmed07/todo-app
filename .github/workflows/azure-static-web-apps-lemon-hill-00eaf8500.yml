@@ -21,8 +21,7 @@ jobs:
     name: Build and Deploy Job
     steps:
       - name: Run Docsify
-      - uses: quintoandar/docsify
-
+        uses: quintoandar/docsify
         run: docsify init ./docs
       - uses: actions/checkout@v2
         with:
